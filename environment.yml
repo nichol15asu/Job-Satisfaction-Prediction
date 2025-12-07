@@ -1,0 +1,37 @@
+name: job_satisfaction_env
+channels:
+
+defaults
+
+conda-forge
+dependencies:
+
+Python version used during training in Databricks
+
+python=3.12.3
+
+Core data science libraries
+
+numpy
+
+pandas
+
+Machine Learning stack
+
+scikit-learn=1.6.1
+
+mlflow
+
+cloudpickle
+
+For notebook/script execution
+
+jupyter
+
+ipython
+
+pip:
+
+Necessary for reading the data file
+
+openpyxl
